@@ -197,8 +197,10 @@ bottom: 10%;
         font-size: small;
     }
     .ParceiroLink{
-    color: white !important;
       font-weight: bold;
+}
+    .div-cabecalho a{
+    color: white !important;
 }
 
     .layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container .layout-menu>li>a:hover {
