@@ -1,34 +1,3 @@
-/* code de fonts */
-
-.cf_branco {
-    background-color: #FFFFFF;
-}
-
-.cf_verde {
-    background-color: #00C89B;
-}
-
-.cf_verdeforte {
-    background-color: #015240;
-}
-
-.cf_cinza {
-    background-color: #999999;
-}
-
-.cf_preto {
-    background-color: #3A3A3A;
-}
-
-.cf_laranja {
-    background-color: #F08600;
-}
-
-.cf_roxo {
-    background-color: #8B00CC;
-}
-
-
 /* cor de fundo*/
 
 .cb_branco {
@@ -59,11 +28,14 @@
     background-color: #8B00CC;
 }
 
+.cb_cinzaClaro {
+    background-color: #f4f4f4;
+}
+
 .c {
     width: 90%;
     margin: 0 auto;
 }
-
 
 /*****************************************
   definições de icones
@@ -164,38 +136,39 @@ ul.info-list {
 }
 
 a.info-link-a {
-    font-family: "Lato", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: white;
-}
-
-a.info-link-a:hover {
-    color: #015240;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #3A3A3A !important;
+    font-weight: normal !important;
 }
 
 .info-title {
-    font-weight: bold;
-    font-family: "Lato", Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #015240;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #3A3A3A;
 }  
 
-.rodape-panel {
-    border-top: 3px solid #015240;
-}
-
 .info-list-l {
-    margin-bottom: 4px;
+    margin-bottom: 15px;
 }
 
 .info-link-icons {
-    padding-left: 15px;
+    padding-left: 17px;
+}
+
+.list-comercial {
+    margin-bottom: 30px;
 }
 
 /*****************************************
   alteração no cabeçalho
 ******************************************/
-  #wBusca {
+
+ .layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container ul li > ul {
+    background-color: #248671;
+}
+    #wBusca {
         width: 45%;
         height: 35%;
     }
@@ -219,13 +192,14 @@ bottom: 10%;
     .layout-wrapper .topbar .layout-menu-wrapper ul li>a:hover {
         color: #00C89B;
     }
-    a{
-    color: white !important;
-      font-weight: bold;
-}
+    
     p {
         font-size: small;
     }
+    .div-cabecalho a{
+    color: white !important;
+      font-weight: bold;
+}
 
     .layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container .layout-menu>li>a:hover {
         border-color: #00C89B;
@@ -257,6 +231,6 @@ color:white;
 position: relative!important;
 bottom: 23%;
 }
-.layout-wrapper.layout-menu-horizontal .topbar .layout-menu-wrapper .layout-menu-container ul li > ul {
-background-color:white;
+.entrar{
+ bottom: 23%;   
 }
