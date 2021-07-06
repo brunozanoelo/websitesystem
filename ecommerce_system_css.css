@@ -230,9 +230,13 @@ input::placeholder{
 color:white;
 }
 .avatar{
-position: relative!important;
+position: relative !important;
 bottom: 23%;
 }
 .entrar{
  bottom: 23%;   
+}
+
+.layout-wrapper .topbar .link-logo .logo{
+    max-height: none !important;
 }
